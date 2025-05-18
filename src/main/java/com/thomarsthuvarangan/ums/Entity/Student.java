@@ -17,7 +17,7 @@ public class Student {
     private Long id;
 
     @NotBlank(message = "Name is required")
-    @Size(min = 2, max = 50, message = "Name should be 2-50 characters")
+    @Size(min = 8, max = 20, message = "Name should be 8-20 characters")
     private String name;
 
     @NotBlank(message = "Email is required")
